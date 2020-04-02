@@ -1,2 +1,2 @@
 # bumf
-一个练手小项目
+一个springboot快速开发项目

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liangyisheng.bumf.dao.BumfArticleMapper">
+  <resultMap id="BaseResultMap" type="com.liangyisheng.bumf.model.BumfArticle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="view_num" jdbcType="INTEGER" property="viewNum" />
+    <result column="comment_num" jdbcType="INTEGER" property="commentNum" />
+    <result column="weight" jdbcType="INTEGER" property="weight" />
+    <result column="tags" jdbcType="VARCHAR" property="tags" />
+    <result column="category_id" jdbcType="INTEGER" property="categoryId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+    <result column="content_html" jdbcType="LONGVARCHAR" property="contentHtml" />
+  </resultMap>
+</mapper>
